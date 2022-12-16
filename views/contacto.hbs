@@ -1,0 +1,37 @@
+<main class="holder">
+    <div class="columna left">
+        <h2>Contacto Rapido</h2>
+        <form action="/contacto" method="post" class="contacto">
+            <p>
+                <label for="">Nombre</label>
+                <input type="text" name="nombre">
+            </p>
+            <p>
+                <label for="">Email</label>
+                <input type="text" name="email">
+            </p>
+            <p>
+                <label for="">Telefono</label>
+                <input type="text" name="tel">
+            </p>
+            <p>
+                <label for="">Comentarios</label>
+                <textarea id="Comentarios" name="comentario"></textarea>
+            </p>
+            <p class="acciones">
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+        <p>{{message}}</p>
+    </div>
+
+    <div class="columna rigth">
+        <h2>Otras Vías de Contacto</h2>
+        <p>con nosotros</p>
+        <ul>
+            <li>Facebook: dulcetentacion.mp</li>
+            <li>Instagram: dulcetentacion.mp</li>
+            <li>WhatsApp: 11 2234 3639</li>
+        </ul>
+    </div>
+</main>

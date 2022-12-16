@@ -1,0 +1,217 @@
+/* font-family: 'Rubik', sans-serif; */
+/* font-family: 'Pattaya', sans-serif; */
+
+
+body{
+    /* background-color: #fffff5; */
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;  
+    font-size: 20px;
+    line-height: 20px;
+    /* padding-top: 25px; */
+    
+}
+
+/* header{
+    font-family: 'Pattaya', sans-serif;
+    background-color: #facaca; }*/
+    
+/* 
+h1{
+   color: black;
+   font-size: 35px;
+   font-style: italic;
+   font-weight: 400;
+   display: inline-block; colocar el titulo al lado del logo 
+   position: relative;
+   bottom: 35px;
+}  */
+
+nav{
+    background-color: #f69c95;
+    margin-bottom: 3px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 18.5%;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 6px 4px;
+    /* background-color: lawngreen; */
+
+}
+
+nav ul li a.activo{
+    background-color: #f16a6a;
+}
+
+
+footer{
+    color: #facaca;
+    padding: 10px;
+    background-color: #a58672;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+    margin-top: 30%;
+}
+
+
+/* encabezado logo */
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* .shawarma{
+    padding: 10px 10px;
+    line-height: 70px;
+    margin-top: center;  
+} */
+
+.bienvenido{
+   /* background-color: lawngreen; */
+   /* text-align: center; */
+   font-size: 16px;
+   width: 65%;
+   /* margin: 50px 20px; */
+   padding: 15%;
+   overflow: hidden;
+   
+
+}
+
+/* inicio de nosotros */
+
+.nosotros{
+   font-size: 16px;
+   width: 75%;
+   padding: 8%;
+   overflow: hidden;
+   margin-bottom: -10px;
+}
+
+
+
+/* fin de nosotros */
+
+/* inicio de dulces */
+
+.coffe{
+    margin-top: 25px;
+    /* margin-left: 150px; */
+    text-align: center;
+}
+
+.tortas{
+    overflow: hidden;
+    
+}
+
+h3{
+    color: #f16a6a;
+    text-align: center;
+    font-style: italic;
+}
+
+.lista{
+    width: 24%;
+    border: 2px solid #facaca;
+    border-radius: 10px;
+    float: left;
+    margin-left: 4.5px;
+    text-align: left;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.lista img{
+    border-radius: 50%;
+    max-width: 70%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 10px 40px 8px;
+
+   
+}
+    
+    /* fin de dulces */
+
+    /* inicio de menu */
+h2{
+    font-family: center;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+.imagen{
+     margin-left: 8%;
+}
+
+/* .img{
+    margin: 5%
+
+} */
+
+.columna{
+    font-size: 18px;
+    background-color: #facaca;
+    /* padding-top: 5px;
+    padding-bottom: 25px; */
+    padding: 35px;
+    border-radius: 7px;
+    font-style: italic;
+    color: #a58672;
+    float: left;
+    max-width: 35%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 25px 30px 18px;
+    /* flex-direction: column;  */
+   
+}   
+    
+
+
+.columnas{
+    font-size: 18px;
+    background-color: #facaca;
+    /* padding-top: 25px; */
+    /* padding-bottom: 25px; */
+    border-radius: 7px;
+    margin: 15%;
+    font-style: italic;
+    color: #a58672;
+    float: right;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 25px 30px 18px;
+  
+}
+    
+    /* fin de menu */
+
+    /* inicio de contacto */
+
+
+    .acciones{
+        text-align: center;
+    }
+
+    .holder{
+        display: flex;
+        
+    }
+
+   
+    /*fin de contacto*/

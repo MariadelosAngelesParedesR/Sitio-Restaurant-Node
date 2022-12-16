@@ -1,0 +1,17 @@
+<div class="container" style="margin-top: 100px ;">
+    <div><h3 style="margin-bottom: 25px;">Hola!! soy el Administrador</h3></div>
+    <div class="row">
+        <form action="/admin/login" method="post">
+            <div class="mb-3">
+                 <input type="text" class="form-control" placeholder="Usuario" name="usuario">
+            </div>
+            <div class="mb-3">
+                 <input type="password" class="form-control" placeholder="Contraseña" name="password">
+            </div>
+            <button type="submit" class="btn btn-outline-secondary"> Ingresar </button>
+        </form>
+        {{#if error}}
+        <p>Clave Incorrecta</p>
+        {{/if}}
+    </div>
+</div>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Tentación.MP</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/dulcetentacionmp.css">
+ </head>
+  
+  <body>
+    <header>
+        <div class="holder">
+        <img src="images/home/IMG-20210127-WA0007.jpg" width="150" alt="Logop">
+        <img src="images/home/img nombre.jpg" width="400" alt="nombre">
+        </div>
+    </header>
+        <nav>
+            <ul>
+                <li> <a class="{{#if isHome}}activo{{/if}}" href="/">Home</a></li>
+                <li><a class="{{#if isNosotros}}activo{{/if}}" href="/nosotros">Nosotros</a></li>
+                <li><a class="{{#if isDulces}}activo{{/if}}" href="/dulces">Dulces</a></li>
+                <li><a class="{{#if isMenu}}activo{{/if}}" href="/menu">Menú</a></li> 
+                <li> <a class="{{#if isContacto}}activo{{/if}}" href="/contacto">Contacto</a></li>  
+            </ul>
+        </nav>
+    {{{body}}}
+    <footer>
+        <p>Diseñado por: María Paredes</p>
+        
+    </footer>
+  </body>
+</html>
